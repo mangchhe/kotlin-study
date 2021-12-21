@@ -1,4 +1,4 @@
-package basic_syntax
+package `1_basic_syntax`
 
 fun getStringLength(obj: Any): Int? {
     if (obj is String) {

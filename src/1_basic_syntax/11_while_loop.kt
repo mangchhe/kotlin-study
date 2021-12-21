@@ -1,12 +1,10 @@
-package basic_syntax
+package `1_basic_syntax`
 
 fun main() {
     var items = listOf("apple", "banana", "kiwifruit")
-    for (item in items) {
-        println(item)
-    }
-    for (index in items.indices) {
+    var index = 0
+    while (index < items.size) {
         println("item at $index is ${items[index]}")
+        index++
     }
 }
-

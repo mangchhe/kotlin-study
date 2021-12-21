@@ -1,7 +1,8 @@
-package basic_syntax
+package `1_basic_syntax`
 
 fun main() {
     print("Hello ")
     print("World!\n")
-    print(42)
+    print(3)
+    println(42)
 }

@@ -1,4 +1,4 @@
-package basic_syntax
+package `1_basic_syntax`
 
 fun describe(obj: Any): String =
     when (obj) {
